@@ -41,7 +41,13 @@ export default class HomeBigSliderList extends React.Component {
             </View>
 
             <View style={{flex: 1, padding: 5}}>
-              <Image source={require('../img/songs/big_b.png')} style={{width: 320, height: 202}}/>
+              {/* <Image source={require('../img/songs/big_b.png')} style={{width: 320, height: 202}}/> */}
+              <ImageBackground source={require('../img/songs/big_b.png')} style={{width: 320, height: 202, justifyContent: 'center',alignItems: 'center'}}>
+                <View style={{height: 36,width: 36,backgroundColor: '#000', opacity: 0.4, justifyContent: 'center',alignItems: 'center', borderRadius: 35, zIndex: 9}}>
+                </View>
+                <Image source={require('../img/icons/play_white.png')} style={{height: 20, width: 18, zIndex: 10, position: 'absolute'}}/>
+              </ImageBackground>
+
               <Text style={{marginLeft: 20}}>
                 All Night
               </Text>
