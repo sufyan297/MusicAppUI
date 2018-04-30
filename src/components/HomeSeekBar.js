@@ -16,7 +16,7 @@ export default class HomeSeekBar extends React.Component {
     return (
       <View style={{flexDirection: 'column'}}>
         <Image source={require('../img/icons/seek_bar.png')} style={{height: 3, width: 'auto'}}/>
-        <View style={{backgroundColor: '#fff', height: 3, width: '0%', position: 'absolute', right: 0,...dynamic_width}}/>            
+        <View style={{backgroundColor: '#fff', height: 4, width: '0%', position: 'absolute', right: 0,...dynamic_width}}/>            
       </View>
     )
   }

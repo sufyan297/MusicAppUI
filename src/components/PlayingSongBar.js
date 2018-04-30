@@ -43,7 +43,7 @@ export default class PlayingSongBar extends React.Component {
         {/* <View style={{ flex: 1, backgroundColor: 'red' }}></View> //BACKDROP*/}
         <BottomSheetBehavior
           ref='bottomSheet'
-          peekHeight={70}
+          peekHeight={72}
           hideable={false}
           state={BottomSheetBehavior.STATE_COLLAPSED}>
           <View style={{backgroundColor: '#fff', flex: 1}}>
